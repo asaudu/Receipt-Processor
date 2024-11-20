@@ -1,0 +1,13 @@
+POST http://localhost:8080/receipts/process
+Content-Type: application/json
+
+{
+  "retailer": "Sprouts",
+  "purchaseDate": "2024-11-20",
+  "purchaseTime": "2024-11-20T10:30:00Z",
+  "items": [
+    { "description": "Dairy Free Yogurt 8oz", "price": 7.99 },
+    { "description": "Breakfast Burritos 6PK", "price": 11.00 },
+    { "description": "Hami Melon", "price": 4.50 }
+  ]
+}

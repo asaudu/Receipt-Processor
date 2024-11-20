@@ -1,0 +1,1 @@
+GET http://localhost:8080/receipts/id_here/points

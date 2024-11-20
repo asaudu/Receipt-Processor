@@ -1,0 +1,12 @@
+POST http://localhost:8080/receipts/process
+Content-Type: application/json
+
+{
+  "retailer": "H&M",
+  "purchaseDate": "2024-11-20",
+  "purchaseTime": "2024-11-20T18:30:00Z",
+  "items": [
+    { "description": "2 Piece Pant Set", "price": 29.50 },
+    { "description": "Ankara Mini Skirt", "price": 12.00 }
+  ]
+}

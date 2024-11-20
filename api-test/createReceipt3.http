@@ -1,0 +1,13 @@
+POST http://localhost:8080/receipts/process
+Content-Type: application/json
+
+{
+  "retailer": "Best Buy",
+  "purchaseDate": "2024-11-18",
+  "purchaseTime": "2024-11-18T15:30:00Z",
+  "items": [
+    { "description": "Laptop", "price": 999.99 },
+    { "description": "Mouse", "price": 25.25 },
+    { "description": "500MB Flashdrive", "price": 100.25 }
+  ]
+}
