@@ -1,0 +1,15 @@
+POST http://localhost:8080/receipts/process
+Content-Type: application/json
+
+{
+  "retailer": "Target",
+  "purchaseDate": "2022-01-01",
+  "purchaseTime": "2024-11-18T13:01:00Z",
+  "items": [
+    { "description": "Mountain Dew 12PK", "price": "6.49"},
+    { "description": "Emils Cheese Pizza", "price": "12.25"},
+    { "description": "Knorr Creamy Chicken", "price": "1.26"},
+    { "description": "Doritos Nacho Cheese", "price": "3.35" },
+    { "description": "   Klarbrunn 12-PK 12 FL OZ  ", "price": "12.00" }
+  ]
+}
